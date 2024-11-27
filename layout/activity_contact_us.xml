@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactUsActivity"
+    android:orientation="vertical"
+    android:background="@drawable/wallpaper6">
+
+    <TextView
+        android:layout_width="213dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:text="Contact Us   : "
+        android:textColor="@color/white"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_contact_us_mobile_no"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_margin="16sp"
+        android:background="@drawable/edittextshape"
+        android:drawableLeft="@drawable/contactus"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:hint=" Please Enter Mobile No: "
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/et_contact_us_message"
+        android:hint="Type Your Message..."
+        android:gravity="center"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_margin="16sp"
+        android:inputType="text"
+        android:background="@drawable/edittextshape"
+        android:backgroundTint="#790A0B0B"/>
+
+
+    <LinearLayout
+        android:layout_width="394dp"
+        android:layout_height="78dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_contact_us_send"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:backgroundTint="#590E1B5E"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:gravity="center"
+            android:text="Send "
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_login_page"
+            android:layout_width="129dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="@dimen/cardview_compat_inset_shadow"
+            android:layout_marginBottom="19dp"
+            android:backgroundTint="#570E1B5E"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text=" Backk"
+            android:textColor="@color/white"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    </LinearLayout>

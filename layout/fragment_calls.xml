@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back_07"
+    android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available Tools"
+        android:textSize="24dp"
+        android:textColor="#F2959393"
+        style="@style/myTabStyle"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="250dp"
+        android:alpha="0.8"
+        android:backgroundTint="#4DFFFFFF"
+        app:cardCornerRadius="40dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="76dp"
+            android:layout_height="77dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/pubg_back03" />
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/kasper_back03"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:layout_marginBottom="110dp"
+        android:src="@drawable/kasperlogobdefault" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME TO KASPER-SKY"
+        android:textColor="#F3F1F1"
+        android:textSize="23dp"
+        android:textStyle="bold"
+        android:layout_marginTop="350dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginLeft="85dp"
+        android:text="Operator Uday"
+        android:textColor="#E3E0E0"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="252dp"
+        android:layout_height="122dp"
+        android:backgroundTint="#02FFFFFF"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/loadingplatewhitefast" />
+
+
+</LinearLayout>
